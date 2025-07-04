@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Grader"/>
+        <attribute name="authors" value="CODE3"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-03 09:03:29 PM"/>
+        <attribute name="created" value="Q09ERTM7RUFSVEg7MjAyNS0wNy0wMzswODoxMzo1NSBQTTsxOTkx"/>
+        <attribute name="edited" value="Q09ERTM7RUFSVEg7MjAyNS0wNy0wMzswOTowMzoyOSBQTTs1OzIxMDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Input B&quot;" newline="True"/>
+            <input variable="B"/>
+            <if expression="A%2==0">
+                <then>
+                    <assign variable="B" expression="B*B"/>
+                </then>
+                <else>
+                    <if expression="A==1">
+                        <then>
+                            <assign variable="B" expression="B+2"/>
+                        </then>
+                        <else>
+                            <if expression="A%2==1">
+                                <then>
+                                    <assign variable="B" expression="B-1"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;A = &quot;" newline="False"/>
+            <output expression="A" newline="True"/>
+            <output expression="&quot;B = &quot;" newline="False"/>
+            <output expression="B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
