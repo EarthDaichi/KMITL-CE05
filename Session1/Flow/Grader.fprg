@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Grader"/>
+        <attribute name="authors" value="CODE3"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-03 08:37:25 PM"/>
+        <attribute name="created" value="Q09ERTM7RUFSVEg7MjAyNS0wNy0wMzswODoxMzo1NSBQTTsxOTkx"/>
+        <attribute name="edited" value="Q09ERTM7RUFSVEg7MjAyNS0wNy0wMzswODozNzoyNSBQTTszOzIxMDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Student" type="String" array="False" size=""/>
+            <declare name="Score" type="Integer" array="False" size=""/>
+            <output expression="&quot;input Student name&quot;" newline="True"/>
+            <input variable="Student"/>
+            <output expression="&quot;Input score&quot;" newline="True"/>
+            <input variable="Score"/>
+            <output expression="Student" newline="True"/>
+            <if expression="Score &gt;= 80">
+                <then>
+                    <output expression="&quot;Grade A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Score &gt;= 70">
+                        <then>
+                            <output expression="&quot;Grade B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="Score &gt;= 60">
+                                <then>
+                                    <output expression="&quot;Grade C&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="Score &gt;= 50">
+                                        <then>
+                                            <output expression="&quot;Grade D&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Grade E&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

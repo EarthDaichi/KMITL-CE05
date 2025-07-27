@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Grader"/>
+        <attribute name="authors" value="CODE3"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-17 10:26:17 PM"/>
+        <attribute name="created" value="Q09ERTM7RUFSVEg7MjAyNS0wNy0wMzswODoxMzo1NSBQTTsxOTkx"/>
+        <attribute name="edited" value="Q09ERTM7RUFSVEg7MjAyNS0wNy0xNzsxMDoyNjoxNyBQTTs1OzIxMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, h" type="Integer" array="False" size=""/>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <output expression="&quot;Input a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Input b&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Input h&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="Area" expression="(1/2)*h*(a+b)"/>
+            <output expression="&quot;Area = &quot;" newline="True"/>
+            <output expression="Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
