@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EvenOrOdd"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-24 04:31:07 PM"/>
+        <attribute name="created" value="VXNlcjtFQVJUSDsyMDI1LTA3LTI0OzAxOjU3OjE4IFBNOzIwNzU="/>
+        <attribute name="edited" value="VXNlcjtFQVJUSDsyMDI1LTA3LTI0OzA0OjMxOjA3IFBNOzY7MjE4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Letter" type="String" array="False" size=""/>
+            <output expression="&quot;input Letter&quot;" newline="True"/>
+            <input variable="Letter"/>
+            <if expression="(Letter &gt;=&quot;a&quot; and Letter &lt;= &quot;z&quot;) or (Letter &gt;=&quot;A&quot; and Letter &lt;= &quot;Z&quot;)">
+                <then>
+                    <if expression="(Letter &gt;=&quot;a&quot; and Letter &lt;= &quot;z&quot;)">
+                        <then>
+                            <output expression="&quot;Letter is non-Capital Alphabet&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Letter is Capital Alphabet&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Letter is not Alphabet&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="Asc" type="Integer" variable="">
+        <parameters/>
+        <body>
+            <if expression="">
+                <then/>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

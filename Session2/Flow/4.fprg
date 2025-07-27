@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EvenOrOdd"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-24 03:20:54 PM"/>
+        <attribute name="created" value="VXNlcjtFQVJUSDsyMDI1LTA3LTI0OzAxOjU3OjE4IFBNOzIwNzU="/>
+        <attribute name="edited" value="VXNlcjtFQVJUSDsyMDI1LTA3LTI0OzAzOjIwOjU0IFBNOzY7MjE4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;input 3 numbers&quot;" newline="True"/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <output expression="&quot;The Biggest Number is &quot;" newline="False"/>
+            <if expression="A&gt;B and A&gt;C">
+                <then>
+                    <output expression="A" newline="True"/>
+                </then>
+                <else>
+                    <if expression="B&gt;A and B&gt;C">
+                        <then>
+                            <output expression="B" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="C" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="Asc" type="Integer" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>
