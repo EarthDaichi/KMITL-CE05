@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="4"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-01 11:42:31 AM"/>
+        <attribute name="created" value="VXNlcjtFQVJUSDsyMDI1LTA4LTAxOzExOjMxOjAwIEFNOzIwNDA="/>
+        <attribute name="edited" value="VXNlcjtFQVJUSDsyMDI1LTA4LTAxOzExOjQyOjMxIEFNOzE7MjE1NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="character" type="Integer" array="False" size=""/>
+            <declare name="count, i, j" type="Integer" array="False" size=""/>
+            <assign variable="character" expression="1"/>
+            <output expression="&quot;input count&quot;" newline="True"/>
+            <input variable="count"/>
+            <for variable="i" start="count" end="1" direction="dec" step="1">
+                <for variable="j" start="0" end="i-1" direction="inc" step="1">
+                    <output expression="character+j" newline="False"/>
+                    <output expression="&quot; &quot;" newline="False"/>
+                </for>
+                <output expression="&quot;&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

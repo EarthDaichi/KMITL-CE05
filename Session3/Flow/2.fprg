@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="DeciToBi"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-01 11:14:07 AM"/>
+        <attribute name="created" value="VXNlcjtFQVJUSDsyMDI1LTA4LTAxOzExOjA2OjI2IEFNOzIwNTA="/>
+        <attribute name="edited" value="VXNlcjtFQVJUSDsyMDI1LTA4LTAxOzExOjE0OjA3IEFNOzE7MjE1Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="deci, i, j" type="Integer" array="False" size=""/>
+            <declare name="bi" type="Integer" array="True" size="64"/>
+            <output expression="&quot;input decimal = &quot;" newline="True"/>
+            <input variable="deci"/>
+            <do expression="deci&gt;0">
+                <assign variable="bi[i]" expression="deci%2"/>
+                <assign variable="deci" expression="deci/2"/>
+                <assign variable="i" expression="i+1"/>
+            </do>
+            <for variable="j" start="i" end="0" direction="dec" step="1">
+                <output expression="bi[j]" newline="False"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
