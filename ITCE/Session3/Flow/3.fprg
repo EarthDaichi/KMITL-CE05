@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="DigitCount"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-01 11:30:58 AM"/>
+        <attribute name="created" value="VXNlcjtFQVJUSDsyMDI1LTA4LTAxOzExOjE0OjU5IEFNOzIwNTU="/>
+        <attribute name="edited" value="VXNlcjtFQVJUSDsyMDI1LTA4LTAxOzExOjMwOjU4IEFNOzE7MjE2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, r" type="Integer" array="False" size=""/>
+            <assign variable="r" expression="0"/>
+            <output expression="&quot;input number&quot;" newline="True"/>
+            <input variable="number"/>
+            <while expression="number&gt;0">
+                <output expression="number" newline="False"/>
+                <output expression="&quot; &quot;" newline="False"/>
+                <output expression="r" newline="True"/>
+                <assign variable="r" expression="r+1"/>
+                <assign variable="number" expression="number/10"/>
+            </while>
+            <output expression="&quot;number of digits = &quot;" newline="False"/>
+            <output expression="r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

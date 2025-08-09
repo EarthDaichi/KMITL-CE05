@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EvenOrOdd"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-24 03:00:02 PM"/>
+        <attribute name="created" value="VXNlcjtFQVJUSDsyMDI1LTA3LTI0OzAxOjU3OjE4IFBNOzIwNzU="/>
+        <attribute name="edited" value="VXNlcjtFQVJUSDsyMDI1LTA3LTI0OzAzOjAwOjAyIFBNOzQ7MjE2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="False" size=""/>
+            <output expression="&quot;input 2 numbers&quot;" newline="True"/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <if expression="A==B">
+                <then>
+                    <output expression="&quot;A and B is Equal&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="A&lt;B">
+                        <then>
+                            <output expression="&quot;The bigest number is A&quot;" newline="True"/>
+                            <output expression="&quot;A = &quot;" newline="True"/>
+                            <output expression="A" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;The bigest number is B&quot;" newline="True"/>
+                            <output expression="&quot;B = &quot;" newline="True"/>
+                            <output expression="B" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="Asc" type="Integer" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>
