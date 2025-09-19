@@ -1,0 +1,13 @@
+x = 10
+print("10x1 = ", x*1)
+print("10x2 = ", x*2)
+print("10x3 = ", x*3)
+print("10x4 = ", x*4)
+print("10x5 = ", x*5)
+print("10x6 = ", x*6)
+print("10x7 = ", x*7)
+print("10x8 = ", x*8)
+print("10x9 = ", x*9)
+print("10x10 = ", x*10)
+print("10x11 = ", x*11)
+print("10x12 = ", x*12)

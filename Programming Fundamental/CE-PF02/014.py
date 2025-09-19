@@ -1,0 +1,8 @@
+i, j =map(int, input("Enter value of i and j : ").split(','))
+print('--- Using Comparison Operator ---')
+print('i < j is ', i<j)
+print('i <= j is ', i<=j)
+print('i == j is ', i==j)
+print('i> j is ', i>j)
+print('i >= j is ', i>=j)
+print('i != j is ', i!=j)
