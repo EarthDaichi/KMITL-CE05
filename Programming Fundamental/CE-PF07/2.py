@@ -1,0 +1,8 @@
+weight = float(input("Enter your weight : "))
+tall = float(input("Enter your tall : "))
+BMI = weight/(tall*tall)
+if(BMI>= 30):print("Very fat")
+elif(BMI>=25):print("Fat")
+elif(BMI>=23):print("Over weight")
+elif(BMI>=18.5):print("Good shape (Normal)")
+else:print("Thin")
